@@ -1,0 +1,72 @@
+body{
+    background-color:#2b2c28;
+}
+
+h1{
+   font-family: 'Special Elite', cursive;
+   background-color:#339989;
+   color: #131515;
+}
+
+#show_sketch{
+    float: right;
+}
+
+#score{
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    margin-left: 5px ;
+    color: #ffffff;
+}
+
+#timer{
+    float: right;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+
+#sketch_to_be_drawn{
+    color: #7de2d1;
+}
+
+
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
